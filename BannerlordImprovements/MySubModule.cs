@@ -11,6 +11,7 @@ namespace BannerlordImprovements
 {
     public class MySubModule: MBSubModuleBase
     {
+        public static BannerlordImprovementsConfig config = new BannerlordImprovementsConfig();
         protected override void OnSubModuleLoad()
         {
             base.OnSubModuleLoad();
@@ -39,3 +40,5 @@ namespace BannerlordImprovements
         }
     }
 }
+
+//bannerlordimprovements
